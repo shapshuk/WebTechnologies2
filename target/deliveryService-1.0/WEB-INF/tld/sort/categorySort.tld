@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib
+        xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+
+    <tlib-version>1.0</tlib-version>
+    <short-name>CategorySort</short-name>
+    <uri>/WEB-INF/tld/sort/categorySort.tld</uri>
+
+    <function>
+        <name>setCheckedStates</name>
+        <function-class>com.market.angelsel.util.CheckedStateSetterUtil</function-class>
+        <function-signature>boolean
+            setCheckedState(by.training.sokolov.entity.category.model.DishCategory,java.util.List)
+        </function-signature>
+    </function>
+
+</taglib>
